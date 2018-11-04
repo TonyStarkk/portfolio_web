@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from codecares.com/html/shorip/index-one.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Nov 2018 19:30:50 GMT -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="#(user.name) - Personal Portfolio Template">
+    <meta name="keywords" content="portfolio, resume, cv, personal portfolio, multipurpose, biography, html template, 2018, onepage, one page, parallax, html5, bootstrap 4">
+    <meta name="author" content="xcodesolution">
+
+    <title>#(user.name) - Personal Portfolio Template</title>
+
+    <!-- Favicon -->
+    <link href="/images/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="/images/apple-icon.png" rel="icon" type="image/png">
+
+    <!-- Bootstrap CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome CSS -->
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <!-- font-awesome-animation.min CSS -->
+    <link href="/css/font-awesome-animation.min.css" rel="stylesheet">
+    <!-- stroke-gap-icons CSS -->
+    <link href="/css/stroke-gap-icons.css" rel="stylesheet">
+    <!-- material-design-iconic-font.min CSS -->
+    <link href="/css/material-design-iconic-font.min.css" rel="stylesheet">
+    <!-- jquery.modal.min CSS -->
+    <link href="/css/jquery.modal.min.css" rel="stylesheet">
+    <!-- animate.min CSS -->
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <!-- animated-text CSS -->
+    <link href="/css/animated-text.css" rel="stylesheet">
+    <!-- owl CSS -->
+    <link href="/css/owl.css" rel="stylesheet">
+    <!-- lightbox CSS -->
+    <link href="/css/lightbox.min.css" rel="stylesheet">
+    <!-- VideoPlayerPopUp CSS -->
+    <link href="/css/VideoPlayerPopUp.css" rel="stylesheet">
+    <!-- YTPlayer CSS -->
+    <link href="/css/jquery.mb.YTPlayer.min.css" rel="stylesheet">
+    <!-- zoomslider CSS -->
+    <link href="/css/zoomslider.css" rel="stylesheet">
+    <!-- jarallax CSS -->
+    <link href="/css/jarallax.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Preloader start -->
+    <div id="preloader"></div>
+
+    <!-- Main Header start -->
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="/index-one.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll active" href="/#page-top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="/#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="/#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="/#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-scroll" href="/#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Start -->
+    <section class="hero-area jarallax over-layer-black">
+        <img class="jarallax-img" src="images/bg/1.jpg" alt="">
+        <div class="hero-content">
+            <div class="hero-content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="hero-col">
+                                <h2>Hi, I am <span>#(user.name)</span></h2>
+                                <h3 class="cd-headline clip">
+                                    <span class="cd-words-wrapper">
+                                        <b class="is-visible">I am experienced</b>
+                                        <b>iOS developer</b>
+                                        <b>Get my best services</b>
+                                    </span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="/#about" class="scroll-animate-icon page-scroll">
+            <i class="fa fa-angle-double-down faa-falling animated"></i>
+        </a>
+    </section>
+
+    <!-- About Start -->
+    <section class="about-area" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="about-col">
+                        <img src="images/about/1.png" alt="">
+                        <div class="about-content">
+                            <h2>About <span>#(user.name)</span></h2>
+                            <div class="title-bdr"></div>
+                            <p>I am an iOS Engineer degreed by a double Master in Computer Science at Epitech (European Institute of Technology) and Ahlia University. I've making  apps since 3 years. I spent my first half my career leading client side iOS development for small startups, and the other half independent contracting. I’ve contracted on multiple iOS applications ranging from social media, IOT, and productivity. I'm highly interested in new technologies, football and entrepernship.</p>
+                            <ul class="about-social">
+                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/mohamed-ali-ben-yaagoub-0a331568/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                            <!-- Modal HTML embedded directly into document -->
+                            <div id="ex1" class="modal my-modal">
+                                <h2>More about us</h2>
+                                <p>Dicta quod accusamus adipisci perspiciatis odio? Nemo deleniti ullam, provident, ea ducimus laudantium consequuntur blanditiis, odit ipsa deserunt necessitatibus repellendus accusamus vitae saepe quasi numquam excepturi
+                                dolor veritatis illo porro iusto rem. Quasi culpa mollitia, consequatur delectus perspiciatis consectetur, perferendis quibusdam eveniet temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatum repellat ipsam, nobis vel saepe architecto, sit nisi beatae necessitatibus, suscipit eligendi minima corporis? Necessitatibus, eveniet incidunt soluta ab labore.</p>
+                                <a class="my-close-btn" href="/#" rel="modal:close">Close</a>
+                            </div>
+                            <!-- Link to open the modal -->
+                            <a class="btn btn-default btn-style btn-color" href="/#ex1" rel="modal:open">More about us</a>
+                            <a class="btn btn-default btn-style btn-color" href="/#">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Start -->
+    <section class="service-area" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="default-title text-center">
+                        <h2>My Services</h2>
+                        <div class="default-title-bdr"></div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-col service-item">
+                        <div class="service-icon">
+                            <i class="zmdi zmdi-laptop-mac"></i>
+                        </div>
+                        <h3>iOS application development</h3>
+                        <p>I love developing application, I have made app in full-time for 3+ years. I have built or worked on a lot of project.</p>
+                        <div class="box-bdr"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-col service-item">
+                        <div class="service-icon">
+                            <i class="zmdi zmdi-arrow-right-top"></i>
+                        </div>
+                        <h3>From Zero to launch</h3>
+                        <p>I spent my first half my career leading client side iOS development for small startups</p>
+                        <div class="box-bdr"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-col service-item">
+                        <div class="service-icon">
+                            <i class="zmdi zmdi-view-dashboard"></i>
+                        </div>
+                        <h3>Agile methodology</h3>
+                        <p>I used to work with agile methodology to provide you a satisfaction by rapid, continuous delivery of useful software</p>
+                        <div class="box-bdr"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="service-col service-item">
+                        <div class="service-icon">
+                            <i class="zmdi zmdi-devices"></i>
+                        </div>
+                        <h3>Test driven development</h3>
+                        <p>I like to write unit test ensure the stability of the app that i built. It's important for me to deliver a stable and scalable application.</p>
+                        <div class="box-bdr"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter Start -->
+    <section class="counter-area jarallax over-layer-black">
+        <img class="jarallax-img" src="images/bg/2.jpg" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="counter-col">
+                        <i class="icon icon-Files"></i>
+                        <div class="counter">
+                            <div class="count">10</div>
+                        </div>
+                        <p>Successful Projects</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="counter-col">
+                        <i class="icon icon-Like"></i>
+                        <div class="counter">
+                            <div class="count">10</div>
+                        </div>
+                        <p>happy clients</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="counter-col">
+                        <i class="icon icon-Crown"></i>
+                        <div class="counter">
+                            <div class="count">3</div>
+                        </div>
+                        <p>Years experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-area" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="default-title text-center">
+                        <h2>Portfolio</h2>
+                        <div class="default-title-bdr"></div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            #for(project in user.projects) {
+
+
+    <div class="row portfolio portfolio-row">
+                <div class="col-md-6 phone"><img class="img-responsive" src="#(project.image)"></div>
+                <div class="col-md-6">
+
+                    <a href="#(project.appLink)" target="_blank">
+                        <img src="#(project.appIcon)" class="app-icon"></a>
+
+                    <h2>#(project.title)</h2>
+                    <p>#(project.description)</p>
+
+                    <h3>My Role:</h3>
+                    <p>#(project.role)</p>
+
+                    <h3>Technologies </h3>
+                    <p>#(project.technologie)</p>
+
+                    <a href="#(project.appLink)" target="_blank">
+
+                    <button class="btn btn-default app-store-button" type="button"></button></a>
+
+                </div>
+            </div>
+            }
+
+        </div>
+    </section> 
+
+    <!-- Hire me Start -->
+    <section class="hire-area jarallax over-layer-black">
+        <img class="jarallax-img" src="images/bg/3.jpg" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hire-col text-center">
+                        <h2>I am available for immediate hire</h2>
+                        <a class="btn btn-primary btn-style btn-color" href="mailto:moha.by@icloud.com" role="button">Hire Me!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact start -->
+    <section class="contact-section section-default" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="default-title text-center">
+                        <h2>Get in touch</h2>
+                        <div class="default-title-bdr"></div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-30-res767">
+                    <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
+                        <div class="info-box">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            Address: United Arab Emirates
+                            <div class="box-bdr"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-30-res767">
+                    <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <div class="info-box">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <p>(+33) 07 60 96 90 13</p>
+                            <div class="box-bdr"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-30-res767">
+                    <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <div class="info-box">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <p>moha.by@icloud.com</p>
+                            <div class="box-bdr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright Start -->
+    <section class="copyright-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="copyright-col text-center991">
+                        <ul>
+                            <li><a href="/#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/mohamed-ali-ben-yaagoub-0a331568/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="copyright-col text-right text-center991">
+                        <p>©2018. Designed by #(user.name) All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- popper.min -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- All Included JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/animated-text.js"></script>
+    <script src="js/jquery.modal.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/jquery.filterizr.min.js"></script>
+    <script src="js/dyscrollup.js"></script>
+    <script src="js/VideoPlayerPopUp.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/jquery.ripples.js"></script>
+    <script src="js/circleMagic.min.js"></script>
+    <script src="js/jquery.zoomslider.min.js"></script>
+
+    <!-- Google map -->
+    <script src="js/google-map.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdEPAHqgxFK5pioDAB3rsvKchAtXxRGO4&amp;callback=initMap"></script>
+
+    <!-- Custom Js -->
+    <script src="js/main.js"></script>
+
+    <!-- AJAX Contact Form Using -->
+    <script src="js/app.js"></script>
+
+</body>
+
+
+<!-- Mirrored from codecares.com/html/shorip/index-one.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Nov 2018 19:31:53 GMT -->
+</html>
