@@ -8,11 +8,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="#(user.name) - Personal Portfolio Template">
-    <meta name="keywords" content="portfolio, resume, cv, personal portfolio, multipurpose, biography, html template, 2018, onepage, one page, parallax, html5, bootstrap 4">
+    <meta name="description" content="#(user.name) - iOS Developer">
+    <meta name="keywords" content="iOS develper, freelance, dubai, united arab emirate, portfolio, resume, cv, personal portfolio, multipurpose, biography, 2018, onepage, one page">
     <meta name="author" content="xcodesolution">
 
-    <title>#(user.name) - Personal Portfolio Template</title>
+    <title>#(user.name) - iOS Developer</title>
 
     <!-- Favicon -->
     <link href="/images/favicon.png" rel="shortcut icon" type="image/png">
@@ -144,14 +144,6 @@
                                 <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/mohamed-ali-ben-yaagoub-0a331568/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                             </ul>
-                            <!-- Modal HTML embedded directly into document -->
-                            <div id="ex1" class="modal my-modal">
-                                <h2>More about us</h2>
-                                <p>Dicta quod accusamus adipisci perspiciatis odio? Nemo deleniti ullam, provident, ea ducimus laudantium consequuntur blanditiis, odit ipsa deserunt necessitatibus repellendus accusamus vitae saepe quasi numquam excepturi
-                                dolor veritatis illo porro iusto rem. Quasi culpa mollitia, consequatur delectus perspiciatis consectetur, perferendis quibusdam eveniet temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatum repellat ipsam, nobis vel saepe architecto, sit nisi beatae necessitatibus, suscipit eligendi minima corporis? Necessitatibus, eveniet incidunt soluta ab labore.</p>
-                                <a class="my-close-btn" href="/#" rel="modal:close">Close</a>
-                            </div>
-                            <!-- Link to open the modal -->
                             <a class="btn btn-default btn-style btn-color" href="/cv-mohamed-ali.pdf">Download CV</a>
                         </div>
                     </div>
