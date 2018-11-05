@@ -152,8 +152,7 @@
                                 <a class="my-close-btn" href="/#" rel="modal:close">Close</a>
                             </div>
                             <!-- Link to open the modal -->
-                            <a class="btn btn-default btn-style btn-color" href="/#ex1" rel="modal:open">More about us</a>
-                            <a class="btn btn-default btn-style btn-color" href="/#">Download CV</a>
+                            <a class="btn btn-default btn-style btn-color" href="/cv-mohamed-ali.pdf">Download CV</a>
                         </div>
                     </div>
                 </div>
