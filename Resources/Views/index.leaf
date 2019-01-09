@@ -137,7 +137,7 @@
                     <div class="about-col">
                         <img src="images/about/1.png" alt="">
                         <div class="about-content">
-                            <h2>About <span>#(user.name)</span></h2>
+                            <h2>About <span>ME</span></h2>
                             <div class="title-bdr"></div>
                             <p>I am an iOS Engineer degreed by a double Master in Computer Science at Epitech (European Institute of Technology) and Ahlia University. I've making  apps since 3 years. I spent my first half my career leading client side iOS development for small startups, and the other half independent contracting. I’ve contracted on multiple iOS applications ranging from social media, IOT, and productivity. I'm highly interested in new technologies, football and entrepernship.</p>
                             <ul class="about-social">
