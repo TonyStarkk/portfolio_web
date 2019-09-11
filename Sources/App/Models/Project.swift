@@ -8,6 +8,13 @@
 import Vapor
 import FluentSQLite
 
+enum ProjectType: Int, Codable {
+    case iOS
+    case web
+    case android
+    case iOSAndAndroid
+}
+
 struct Project: SQLiteModel {
     var id: Int?
     
@@ -34,6 +41,11 @@ struct Project: SQLiteModel {
     
     /// The link of the project
     var link: String
+
+    /// The project type
+    var type: ProjectType
+    
+    let isIos: Bool = true
 }
 
 /// Allows `Project` to be used as a dynamic migration.

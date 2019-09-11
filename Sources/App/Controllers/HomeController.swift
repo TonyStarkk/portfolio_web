@@ -11,7 +11,7 @@ import Vapor
 
 final class HomeController {
     
-    let projects = [
+    let projects: [Project] = [
         Project(id: nil,
                 title: "Eurosport",
                 description: "I contracted on Eurosport : Eurosport is the only application which can propose you all the news and results : football, rugby, tennis, winter olympics, PyeongChang 2018, Formula 1, cyclism, basketball, athleticism, handball, WRC, WTCC, ERC, Dakar’s race, Superbike, GP2, WEC, World Series by Renault, Abarth’s trophy, golf, Biathlon, alpine skiing, ice hockey, judo, fencing, boxing, snooker, US Football, University’s sports, equitation",
@@ -20,7 +20,8 @@ final class HomeController {
                 appLink: "https://itunes.apple.com/app/eurosport/id324021126?mt=8",
                 technologie: "Swift, Objective C, GoogleAd",
                 image: "images/portfolio/eurosport.png",
-                link:  "https://itunes.apple.com/app/eurosport/id324021126?mt=8"
+                link:  "https://itunes.apple.com/app/eurosport/id324021126?mt=8",
+                type: .iOS
         ),
         Project(id: nil,
                 title: "Muller Intuitiv",
@@ -30,7 +31,8 @@ final class HomeController {
                 appLink: "https://itunes.apple.com/fr/app/muller-intuitiv-with-netatmo/id1282275284?mt=8",
                 technologie: "Swift, Homekit, Real time, Programmatic User Interface",
                 image: "images/portfolio/muller-intuitiv.jpg",
-                link:  "https://www.muller-intuitiv.com"
+                link:  "https://www.muller-intuitiv.com",
+                type: .iOS
                 ),
         Project(id: nil,
                 title: "ClashTV",
@@ -40,17 +42,19 @@ final class HomeController {
                 appLink: "https://itunes.apple.com/fr/app/clashtv/id1448221179",
                 technologie: "Swift, Real time, Programmatic User Interface",
                 image: "images/portfolio/clashtv.png",
-                link:  "https://itunes.apple.com/fr/app/clashtv/id1448221179"
+                link:  "https://itunes.apple.com/fr/app/clashtv/id1448221179",
+                type: .iOS
         ),
         Project(id: nil,
                 title: "Piksa",
                 description: "I contracted on Piksa : PIKSA is the most honest place on the internet. See what your friends think of you , answer anonymous questions and ask others the things you have never dare to ask",
                 appIcon: "images/portfolio/piksa-app.png",
                 role: "Built the version 1.0. Focused on building the UI and logic.",
-                appLink: "https://www.piksa.io",
+                appLink: "https://apps.apple.com/us/app/pheed-express-yourself/id1458818190",
                 technologie: "Swift, Real time, Programmatic User Interface",
                 image: "images/portfolio/piksa.jpg",
-                link:  "https://www.piksa.io"
+                link:  "https://www.piksa.io",
+                type: .iOS
         ),
         Project(id: nil,
                 title: "Indoor Geoloc",
@@ -60,17 +64,30 @@ final class HomeController {
                 appLink: "https://itunes.apple.com/us/app/b-loc/id1218772018",
                 technologie: "Swift, Real time, Corelocation, IndoorsAtlas",
                 image: "images/portfolio/bandloc.png",
-                link:  "https://www.bouygues-es.com/"
+                link:  "https://www.bouygues-es.com/",
+                type: .iOS
+        ),
+        Project(id: nil,
+                title: "Wintegreat",
+                description: "A platforms that allow refugee to subscribe to univerties in France",
+                appIcon: "images/portfolio/wintegreat-app.png",
+                role: "I was the sole Full stack Developer on the project from zero to version 1.0. I've made the backend with Nodejs and the front with ReactJS",
+                appLink: "https://wintegreat.org/en/",
+                technologie: "NodeJS, MongoDB, ReactJS",
+                image: "images/portfolio/wintegreat.png",
+                link:  "https://wintegreat.org/en/",
+                type: .web
         ),
         Project(id: nil,
                 title: "AiOControl",
                 description: "The only application that allows you to make the settings of your projection screen, your motorized support and your video projector at your fingertips. Save time and comfort while setting up your devices and enjoy the most user-friendly everyday use.",
                 appIcon: "images/portfolio/aiocontrol-app.jpg",
-                role: "I was the sole iOS Developer on the project from zero to version 1.0.",
+                role: "I was the sole iOS Developer and Web developer on the project from zero to version 1.0.",
                 appLink: "https://itunes.apple.com/us/app/aiocontrol/id1308384596?mt=8",
-                technologie: "Swift, Real time, Corelocation, IndoorsAtlas",
+                technologie: "ReactJS, WebSocket, Swift, Real time, Corelocation, IndoorsAtlas",
                 image: "images/portfolio/aiocontrol.jpg",
-                link:  "https://www.avconceptproducts.com/systeme-de-controle-homecinema-sans-fil-aiocontrol"
+                link:  "https://www.avconceptproducts.com/systeme-de-controle-homecinema-sans-fil-aiocontrol",
+                type: .iOS
         ),
         Project(id: nil,
                 title: "Smice",
@@ -80,7 +97,8 @@ final class HomeController {
                 appLink: "https://itunes.apple.com/us/app/smice/id579002700?mt=8",
                 technologie: "Objective C, CoreData, Reachability",
                 image: "images/portfolio/smice.png",
-                link:  "http://smice.com/smice-pro/"
+                link:  "http://smice.com/smice-pro/",
+                type: .iOS
         ),
         Project(id: nil,
                 title: "Houtchi",
@@ -90,7 +108,8 @@ final class HomeController {
                 appLink: "https://itunes.apple.com/us/app/smice/id579002700?mt=8",
                 technologie: "Java, CoreData, Reachability",
                 image: "images/portfolio/houtchi.jpg",
-                link:  "https://itunes.apple.com/fr/app/houtchi/id890977280?mt=8"
+                link:  "https://itunes.apple.com/fr/app/houtchi/id890977280?mt=8",
+                type: .iOS
         ),
 
     ]
@@ -109,7 +128,6 @@ final class HomeController {
                         name: "Mohamed ali",
                         projects: self.projects,
                         testimonials: self.testimonials)
-        
         return try req.view().render("index", ["user": user])
     }
     

@@ -175,7 +175,7 @@
                             <i class="zmdi zmdi-laptop-mac"></i>
                         </div>
                         <h3>iOS application development</h3>
-                        <p>I love developing application, I have made app in full-time for 3+ years. I have built or worked on a lot of project.</p>
+                        <p>I love developing application, I have made app in full-time for 5+ years. I have built or worked on a lot of project.</p>
                         <div class="box-bdr"></div>
                     </div>
                 </div>
@@ -280,10 +280,12 @@
 
                     <h3>Technologies </h3>
                     <p>#(project.technologie)</p>
-
-                    <a href="#(project.appLink)" target="_blank">
-
-                    <button class="btn btn-default app-store-button" type="button"></button></a>
+                    
+                    #if(project.type == 0) {
+                        <a href="#(project.appLink)" target="_blank">
+                            <button class="btn btn-default app-store-button" type="button"></button>
+                        </a>
+                    }
 
                 </div>
             </div>
@@ -315,7 +317,13 @@
                     <div class="default-title text-center">
                         <h2>Get in touch</h2>
                         <div class="default-title-bdr"></div>
-                        <p></p>
+                        <p>
+                        I'am currently in Dubai for next 3 months. I'm looking for a new opportunity.
+                        <br>
+                        Please feel free to contact me
+                        <br>
+                        My number : +971 0523642764
+                     </p>
                     </div>
                 </div>
             </div>
@@ -324,7 +332,7 @@
                     <div class="contact-info-box wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
                         <div class="info-box">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            Address: United Arab Emirates
+                            Address: Paris, France
                             <div class="box-bdr"></div>
                         </div>
                     </div>
